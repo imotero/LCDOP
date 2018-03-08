@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="st2.css">
+        <link rel="icon" href="pics/lwn.png">
+        <script src="scrolling.js"></script>
+        <script>
+        $(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+      
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 500, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+          window.scroll({ behavior: 'smooth' });
+      });
+    } // End if
+  });
+});
+</script>
+    <title>LCDOP About</title>
+    </head>
+    
+    <body>
+        <div class="opt" align="center">
+            <h4><a href="index.html">Home</a></h4>
+            <h4><a href="abt.html">About</a></h4>
+            <h4><a href="pao.html">Purpose and Objectives</a></h4>
+            <h4><a href="bylaw.html">By-Laws</a></h4>
+            <h4><a href="evnts.html">Events</a></h4>
+<!--            <h4><a href="reg.html">Registration</a></h4>-->
+        </div>
+        <div class="content">
+            <div class="oopt">
+                <a class="opts" href="#hstry">LCDOP History</a>
+                <a class="opts" href="#mv">Mission/Vission</a>
+                <a class="opts" href="#off">Officers</a>    
+                <a class="opts" href="#bot">Board of Trustees</a></div>
+    <div id="hstry">
+    <h1>About</h1>
+    <h2>LCDOP HISTORY</h2></div>
+        <hr/>
+    <p>The organization of thae league was initiated by the Cooperative Development Authority through <b>Adm. Soc Anthony M. Del Rosario</b> as oversight chairman of the LGU-COOP-CDA partnership, in the close collaboration with the <b>Office of the Provincial Governor of Cavite</b>, with the <b>Hon. Governor Ayong Maliksi</b> togerther with <b>Mr. Nelson Alindogan</b> representing the cooperative sector.</p>
+        <br/>
+    <p>Said partnership was forged duaring the holding of the <b>1<sup>st</sup> Tripartite Conaference for Cooperative Development</b> held in Tagaytay International Converntion Center, Tagaytay City on November 26-28, 2003 with the Provincial Government of Cavite as host.</p>
+        <br/>
+    <p>The idea of organizing the league was approved on the said event. A technical group was created to prepare a study on the mechanics, nature and function of the organization.</p>
+        <br/>
+    <p>On November 24, 2005, during the holding of <b>2<sup>nd</sup> National Tripartite Conference</b> at Bohol Tropics Resort, Tagbilaran City, various LGUs endorsed the creation of the league and elected the national officers. <b>Dr. Emmanuel M. Santiguel</b>, PCDO-Cavite was elected <b>Chartered President</b>.</p>
+        <br/>
+    <p>On November 25, 2005,a the officers were inducted and stalled to the office with Cooperative Development Authority (CDA) Chairperson Lecira Juarez as inducting officer and it was witnessed by the CDA Administrators and a reoresentative from Department of Interior and Local Government (DILG) Dr. Mariano Gavito.</p>
+        <br/>
+    <p>Likewise, on January 18, 2006 the officers took their oath of office before DILG Undersecretary Hon. Wenceslao Tan Andanar who recognized the league as the umbrella organization of all cooperative officers belonging to Local Government Units in the country.</p>
+        <br/>
+    <p>In 2015, in compliance with the rules and regulations of national agiencies governing the registration and operation of organizations like the league, the LCDOP was re-registered with the Security and Exchange Commision under the name of <b>LIGA ng mga COOPERATIVE DEVELOPMENT OFFICERS sa PILIPINAS</b> still with the original acronym <b>LCDOP INC.</b> Its <b>SEC CERTIFICATE of INCORPORATION</b> was issued on January 21, 2015 at Mandaluyong City, Metro Manila, Philippines.</p>
+        <br/>
+    <h2 id="mv">VISION</h2>
+        <hr/>
+        <p>"A strong and vibrant league responsive to the needs of the Cooperative Movement and catalyst of social transformation."</p>
+    <h2>MISSION</h2>
+        <hr/>
+        <p>"To be a catalyst of social justic, equity and sustainable development, drawing the marginalized sectors into the mainstream of development process, thereby, giving credence to the declared policy of the state to advice cooperative development anchored on time-honored and universally-accepted cooperative principles and practices."</p><br/>
+            <div id="off">
+            <h2 id="lfta">LCDOP(LIGA ng mga COOPERATIVE DEVELOPMENT OFFICERS sa  PILIPINAS, INC.)</h2></div>
+        <hr/>
+            <p id="lfta">President: Mrs. Celia L. Atienza</p>
+            <p id="lfta">Vice-President: Mr. Alvin B. Dela Cruz</p>    
+            <p id="lfta">Secretary: Ms. Rafaelita M. Nicoleta</p>
+            <p id="lfta">Treasurer: Ms. Vivien Gabriel</p>
+            <p id="lfta">Auditor: Ms. Raquelita Umali</p>
+            <br/>
+                <div id="bot">
+            <h2 id="lfta"> Board of Trustees:</h2></div>
+                <hr/>
+            <ol>
+                <li>Atty. Arturo Cangrejo</li>
+                <li>Mr. Essworth Gonzales</li>
+                <li>Mr. Nestor Leguro</li>
+                <li>Ms Lilia C. Castillo</li>
+                <li>Mr. Guy Alipio Tuzon</li>
+                <li>Rev. Antonio S. Alastra, Jr.</li>
+                <li>Ms. Maria Asner Dean</li>
+                <li>Engr. Felix Tabasa</li>
+                <li>Ms. Dona Challongen</li>
+                <li>Dr. Felicitas Acosido</li>
+                <li>Ms. Elena Doris Sarande</li>
+            </ol>
+            <br/>
+            <div class="directory"><a class="nd" href="nd.html">View Complete Directory..</a></div>
+            </div>
+        <div class="footer">
+            <h5 class="ft">All Rights Reserved 2018</p>
+            </div>
+            </body>
+</html>
